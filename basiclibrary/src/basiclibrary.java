@@ -1,3 +1,11 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 public class basiclibrary {
     public static void main(String[] args) {
         int[] dices = roll(6);
@@ -16,7 +24,23 @@ public class basiclibrary {
         for (int i = 0; i < mainArr.length; i++) {
             System.out.println(mainArr[i]);
         }
+
+        weather(weeklyMonthTemperatures);
+        // Lab03 --- most votes.
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        tally(votes);
     }
+
     public static int[] roll(int num) {
         int[] dice = new int[num];
         for (int i = 0; i < num; i++) {
@@ -64,5 +88,72 @@ public class basiclibrary {
             }
         }
         return tempArr;
+    }
+    public static void weather(int[][] arr) {
+
+        // Add all numbers into on array
+        List<Integer> ArrayWithAllNumbers = new ArrayList<>();
+
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                ArrayWithAllNumbers.add(arr[i][j]);
+            }
+        }
+
+        // Get rid of all the duplicated values
+        Set<Integer> uniqueTemp = new HashSet<>();
+        uniqueTemp.addAll(ArrayWithAllNumbers);
+
+        // Find the min mix values
+        // store the length of the ArrayList in variable n
+        int n = ArrayWithAllNumbers.size();
+
+        int min = ArrayWithAllNumbers.get(0);
+        int max = ArrayWithAllNumbers.get(0);
+        // loop to find minimum from ArrayList
+        for (int i = 1; i < n; i++) {
+            if (ArrayWithAllNumbers.get(i) < min) {
+                min = ArrayWithAllNumbers.get(i);
+            }
+            if (ArrayWithAllNumbers.get(i) > max) {
+                max = ArrayWithAllNumbers.get(i);
+            }
+        }
+        System.out.println("This is the minimum number: " + min);
+        System.out.println("This is the maximum number: " + max);
+
+        // Never saw temperature
+        for (int i = min; i < max; i++) {
+            if (!ArrayWithAllNumbers.contains(i)) {
+                System.out.println("Never saw temperature: " + i);
+            }
+        }
+
+        System.out.println(uniqueTemp);
+        System.out.println("This is the length of the hashSet " + uniqueTemp.size());
+    }
+    public static void tally(List<String> votes) {
+        // declear a string value to give it the name with highest votes
+        String winner = "";
+
+        // declear an integer value to compare the votes
+        int temp = 0;
+
+        // declear an array list to get rid of the dublicated values
+
+
+        Set<String> getRidOfdub = new HashSet<>();
+        getRidOfdub.addAll(votes);
+
+        for (String vote : getRidOfdub) {
+
+            int highiestVotesNumber = Collections.frequency(votes, vote);
+
+            if (highiestVotesNumber > temp) {
+                temp = highiestVotesNumber;
+                winner = vote;
+            }
+        }
+        System.out.println( winner + " received the most votes!");
     }
 }
