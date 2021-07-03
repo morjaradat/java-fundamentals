@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basiclibrary/Basiclibrary.iml" filepath="$PROJECT_DIR$/Basiclibrary/Basiclibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/basic/basic.iml" filepath="$PROJECT_DIR$/basic/basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/basiclibary/basiclibary.iml" filepath="$PROJECT_DIR$/basiclibary/basiclibary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/basiclibrary/basiclibrary.iml" filepath="$PROJECT_DIR$/basiclibrary/basiclibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-fundamentals.iml" filepath="$PROJECT_DIR$/.idea/java-fundamentals.iml" />
     </modules>
   </component>
 </project>
