@@ -9,6 +9,7 @@ import java.util.Set;
 public class App {
     public static void main(String[] args) {
 
+        
         int[] dices = roll(6);
         System.out.println(Arrays.toString(dices));
 
