@@ -30,6 +30,18 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance" />
+        <option name="gradleHome" value="C:/Gradle/gradle-7.1" />
+        <option name="gradleJvm" value="11 (WSL)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/inheritance" />
+            <option value="$PROJECT_DIR$/inheritance/lib" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
         <option name="gradleHome" value="C:/Gradle/gradle-7.1" />
         <option name="gradleJvm" value="11 (WSL)" />

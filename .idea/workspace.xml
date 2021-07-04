@@ -5,6 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/ReviewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/category/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/review/ReviewList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basiclibrary/app/src/main/java/basiclibrary/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/app/src/main/java/basiclibrary/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +26,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/basiclibrary">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/inheritance">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/linter">
@@ -34,6 +46,14 @@
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -53,8 +73,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/linter/app/src/main/resources" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/inheritance" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,7 +88,16 @@
       <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental\basic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.basiclibrary">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Restaurant.App" />
+      <module name="inheritance.lib.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Linter" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -109,13 +141,15 @@
       <item itemvalue="Application.Linter" />
       <item itemvalue="Application.basic" />
       <item itemvalue="Application.basiclibrary" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.basiclibrary" />
         <item itemvalue="Application.basic" />
         <item itemvalue="Application.Linter" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.basiclibrary" />
       </list>
     </recent_temporary>
   </component>
