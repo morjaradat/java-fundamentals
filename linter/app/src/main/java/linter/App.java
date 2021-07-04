@@ -14,7 +14,7 @@ import java.io.*;
 public class App {
 
     public static void main(String[] args) throws IOException {
-        System.out.println("hello mmmmmmmmmm");
+//        System.out.println("hello mmmmmmmmmm");
         JavaScript_Linter();
 
     }
@@ -22,9 +22,6 @@ public class App {
         try {
             BufferedReader br = new BufferedReader(new FileReader("linter/app/src/main/resources/gates.js"));
             BufferedWriter bw = new BufferedWriter(new FileWriter("linter/app/src/main/resources/gatesFix.txt"));
-
-//            BufferedReader br = new BufferedReader(new FileReader("\\\\wsl$\\Ubuntu\\home\\mohammad\\401\\java-fundamentals\\linter\\app\\src\\main\\resources\\gates.js"));
-//            BufferedWriter bw = new BufferedWriter(new FileWriter("\\\\wsl$\\Ubuntu\\home\\mohammad\\401\\java-fundamentals\\linter\\app\\src\\main\\resources\\gatesFix.txt"));
 
             String s;
             boolean notContainSpecialCharacter;
@@ -46,6 +43,7 @@ public class App {
                 if (notContainSpecialCharacter){
                     bw.write(s +"\n");
                 }
+
             }
 
             br.close();
