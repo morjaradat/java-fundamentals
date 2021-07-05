@@ -5,38 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Review2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/ReviewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/category/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/review/ReviewList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/category/CategoryList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/category/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/gradlew" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +20,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/basiclibrary">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/inheritance">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/inheritance2">
@@ -78,6 +53,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="inheritance2" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />

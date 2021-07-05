@@ -17,3 +17,8 @@
 
 - linter
 - method that read a file checking the missing semicolon and fix it and return a new file 
+
+- inheritance
+1. added superClass Review and subclass Restaurant that extend Review
+2. every Restaurant has own review and category 
+3. the use can review once and if he tried to review again the review is not added
