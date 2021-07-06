@@ -1,7 +1,7 @@
 package inheritance2;
 import category.CategoryList;
 
-public class Restaurant2 extends Review2{
+public class Restaurant2 extends Review2 implements ToStringInterface {
 
     private final String name;
     private int star1;

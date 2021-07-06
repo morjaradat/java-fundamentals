@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="">
+    <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="add a new shop $ theater class">
+      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Theater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/ToStringInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant2.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review2.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -58,6 +65,11 @@
     <option name="BRANCH" value="inheritance2" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1uqtPBbgINrcs06g8lIaBK2FRKA" />
@@ -88,7 +100,7 @@
       <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental\basic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AppTest.checkIfTheNumberOfStarsChange">
+  <component name="RunManager" selected="Gradle.AppTest.theaterRemoveMovie">
     <configuration name="inher" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -98,33 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.associationReviewAfterNewReviewBetweenReviewAndRestaurantCon" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppTest.RestaurantConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.associationReviewAfterNewReviewBetweenReviewAndRestaurantCon&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.checkIfTheNumberOfStarsChange" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.checkIfTheNumberOfStarsChange&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.RestaurantConstructor&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -161,12 +152,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AppTest.toStringReview" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppTest.theaterAddNewMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.toStringReview&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.theaterAddNewMovie&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,12 +173,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AppTest.toStringReviewAfterNewReview" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppTest.theaterRemoveMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.toStringReviewAfterNewReview&quot;" />
+        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.theaterRemoveMovie&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.toStringTheater" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.toStringTheater&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -205,19 +217,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.inher" />
+      <item itemvalue="Gradle.AppTest.toStringTheater" />
       <item itemvalue="Gradle.AppTest.reviewConstructor" />
-      <item itemvalue="Gradle.AppTest.toStringReview" />
-      <item itemvalue="Gradle.AppTest.toStringReviewAfterNewReview" />
-      <item itemvalue="Gradle.AppTest.associationReviewAfterNewReviewBetweenReviewAndRestaurantCon" />
-      <item itemvalue="Gradle.AppTest.checkIfTheNumberOfStarsChange" />
+      <item itemvalue="Gradle.AppTest.RestaurantConstructor" />
+      <item itemvalue="Gradle.AppTest.theaterAddNewMovie" />
+      <item itemvalue="Gradle.AppTest.theaterRemoveMovie" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.AppTest.checkIfTheNumberOfStarsChange" />
-        <item itemvalue="Gradle.AppTest.associationReviewAfterNewReviewBetweenReviewAndRestaurantCon" />
-        <item itemvalue="Gradle.AppTest.toStringReviewAfterNewReview" />
-        <item itemvalue="Gradle.AppTest.toStringReview" />
+        <item itemvalue="Gradle.AppTest.theaterRemoveMovie" />
+        <item itemvalue="Gradle.AppTest.theaterAddNewMovie" />
+        <item itemvalue="Gradle.AppTest.RestaurantConstructor" />
         <item itemvalue="Gradle.AppTest.reviewConstructor" />
+        <item itemvalue="Gradle.AppTest.toStringTheater" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +242,14 @@
       <option name="presentableId" value="Default" />
       <updated>1625404921530</updated>
     </task>
+    <task id="LOCAL-00001" summary="add to readMe  inheritance">
+      <created>1625506844050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1625506844050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -243,6 +263,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add to readMe  inheritance" />
+    <MESSAGE value="add a new shop $ theater class" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a new shop $ theater class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_fundamental$App.ic" NAME="App Coverage Results" MODIFIED="1625492074111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
