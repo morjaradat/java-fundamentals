@@ -53,6 +53,18 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/quotes" />
+        <option name="gradleHome" value="C:/Gradle/gradle-7.1" />
+        <option name="gradleJvm" value="11 (WSL)" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/quotes" />
+            <option value="$PROJECT_DIR$/quotes/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
