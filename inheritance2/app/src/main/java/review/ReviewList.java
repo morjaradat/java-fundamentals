@@ -18,6 +18,7 @@ public class ReviewList {
             }
             current = current.getNext();
         }
+
         ReviewNode reviewNode = new ReviewNode(body, author, stars);
         if (authorNotExist) {
             if (this.head == null) {
@@ -33,6 +34,7 @@ public class ReviewList {
         }
         return false;
     }
+
     public String toString(){
         ReviewNode current =this.head;
         if (current == null){

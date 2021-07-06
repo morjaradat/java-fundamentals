@@ -2,7 +2,7 @@ package inheritance2;
 
 import review.ReviewList;
 
-public class Review2  {
+public class Review2  implements ToStringInterface{
     private String body;
     private String author;
     private int reviewStar;
@@ -24,17 +24,31 @@ public class Review2  {
 
     public void addReview(String body, String author, int star) {
        boolean addNewReview = newReview.addNewReview(body,author,star);
-        System.out.println(addNewReview);
+//        System.out.println(addNewReview);
        if (addNewReview){
-           System.out.println("star");
-           System.out.println("---------");
+//           System.out.println("star");
+//           System.out.println("---------");
            setReviewStar(star);
        }else{
-           System.out.println("No star");
-           System.out.println("---------");
+//           System.out.println("No star");
+//           System.out.println("---------");
        }
 
     }
+
+//    public void addMovieReview(String movie,String body, String author, int star) {
+//        boolean addNewReview = newReview.addNewReview(body,author,star);
+////        System.out.println(addNewReview);
+//        if (addNewReview){
+////           System.out.println("star");
+////           System.out.println("---------");
+//            setReviewStar(star);
+//        }else{
+////           System.out.println("No star");
+////           System.out.println("---------");
+//        }
+//
+//    }
 
     public String getBody() {
         return body;
