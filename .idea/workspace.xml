@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="add a new shop $ theater class">
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Shop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Theater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/ToStringInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/Quotes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/resources/recentquotes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/src/test/java/quotes/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant2.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review2.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,11 +50,17 @@
     <projectState path="$PROJECT_DIR$/linter">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/quotes">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/inheritance2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/quotes">
           <activation />
         </task>
         <projects_view>
@@ -56,8 +75,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -86,7 +105,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/quotes" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -96,11 +115,27 @@
       <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental\linter\app\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental\quotes\app\src\main\resources" />
       <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental" />
       <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental\basic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.AppTest.theaterRemoveMovie">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="quotes.App" />
+      <module name="quotes.app.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quotes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="inher" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -194,30 +229,9 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="AppTest.toStringTheater" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.toStringTheater&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Application.inher" />
-      <item itemvalue="Gradle.AppTest.toStringTheater" />
+      <item itemvalue="Application.App" />
       <item itemvalue="Gradle.AppTest.reviewConstructor" />
       <item itemvalue="Gradle.AppTest.RestaurantConstructor" />
       <item itemvalue="Gradle.AppTest.theaterAddNewMovie" />
@@ -225,11 +239,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Gradle.AppTest.theaterRemoveMovie" />
         <item itemvalue="Gradle.AppTest.theaterAddNewMovie" />
         <item itemvalue="Gradle.AppTest.RestaurantConstructor" />
         <item itemvalue="Gradle.AppTest.reviewConstructor" />
-        <item itemvalue="Gradle.AppTest.toStringTheater" />
       </list>
     </recent_temporary>
   </component>
