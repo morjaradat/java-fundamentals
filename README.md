@@ -26,3 +26,5 @@
 5. Shop class provide name of Shop and description and price category, and you can add a review for the shop 
 6. Theater class provide name of Theater and list of the movie , and you can add and remove movie, and you can add review for it .
 
+-quotes 
+1. i write a function that print random quote with author every run
