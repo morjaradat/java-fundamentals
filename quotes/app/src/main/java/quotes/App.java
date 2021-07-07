@@ -4,26 +4,38 @@
 package quotes;
 
 import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.internal.bind.JsonTreeWriter;
 import com.google.gson.stream.JsonReader;
+import com.google.gson.stream.JsonWriter;
 
 import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.jar.JarEntry;
 
 
 public class App {
 
     public static void main(String[] args) throws IOException {
-        String  path = "./app/src/main/resources/recentquotes.json";
+//        System.out.println(args[0]);
+        if (args[0].equals("local")){
+            System.out.println("The quote from local machine ");
+            String  path = "./app/src/main/resources/recentquotes.json";
         readJson(path);
+        }else {
+            quoteFromApi();
+        }
 
     }
-    public static Boolean readJson(String path){
-        try{
-            Gson gson = new Gson();
 
-            JsonReader jsonReader =new JsonReader(new BufferedReader(new FileReader(path)));
+    public static Boolean readJson(String path) {
+        try {
+            Gson gson = new Gson();
+//            System.out.println("local");
+            JsonReader jsonReader = new JsonReader(new BufferedReader(new FileReader(path)));
 
             ArrayList<String> author = new ArrayList<>();
             ArrayList<String> text = new ArrayList<>();
@@ -39,14 +51,89 @@ public class App {
 
 //            System.out.println(author.size());
 //            System.out.println(text.size());
-            int random = (int) Math.floor(Math.random()*author.size());
+            int random = (int) Math.floor(Math.random() * author.size());
 
-            System.out.println("author :" +author.get(random) +"\n"+ "quote : " +text.get(random));
-                return true;
-        }catch (IOException e){
+            System.out.println("author :" + author.get(random) + "\n" + "quote : " + text.get(random));
+            return true;
+        } catch (IOException e) {
             System.out.println("error");
             return false;
         }
 
+    }
+
+    public static void quoteFromApi() throws IOException {
+        String url = "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en";
+        try{
+            HttpURLConnection apiData = (HttpURLConnection) new URL(url).openConnection();
+            apiData.setConnectTimeout(5000);
+            apiData.setReadTimeout(5000);
+//        System.out.println(apiData);
+            apiData.setRequestMethod("GET");
+            int responseCode = apiData.getResponseCode();
+
+            if (responseCode == HttpURLConnection.HTTP_OK) {
+
+//                System.out.println(apiData);
+
+                InputStreamReader inputStreamReader = new InputStreamReader(apiData.getInputStream());
+                BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
+
+                String data = bufferedReader.readLine();
+//                System.out.println(data);
+
+                bufferedReader.close();
+
+                Gson gson = new Gson();
+
+                QuotesFromAPI quotes = gson.fromJson(data, QuotesFromAPI.class);
+//                System.out.println("-------------------------------");
+                System.out.println("The quote from the Internet ");
+
+                System.out.println("QuoteAuthor : " + quotes.getQuoteAuthor());
+                System.out.println("QuoteText : " + quotes.getQuoteText());
+
+//            JsonWriter jsonWriter= new JsonWriter(new BufferedWriter(new FileWriter("./app/src/main/resources/recentquotesCopy3.json")));
+                JsonObject object= new JsonObject();
+                object.addProperty("author",quotes.getQuoteAuthor());
+                object.addProperty("text",quotes.getQuoteText());
+//                System.out.println(object);
+//            JsonReader jsonReader = new JsonReader(new BufferedReader(new FileReader("./app/src/main/resources/recentquotesCopy.json")));
+
+
+
+
+
+//            jsonWriter.close();
+////            BufferedReader jasonReader = new BufferedReader(new FileReader("./app/src/main/resources/recentquotesCopy.json"));
+//            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("./app/src/main/resources/recentquotesCopy.json"));
+////            String object = gson.toJson(QuotesFromAPI.class);
+//            String s;
+//            System.out.println(jasonReader.readLine());
+//            for (int i = 0; (s = jasonReader.readLine()) != null; i++) {
+//                System.out.println(s);
+//                if (s.contains("}")) {
+//                    bufferedWriter.write("},\n");
+//                    bufferedWriter.write("\"quoteAuthor\"" + ":" + "\"" + quotes.getQuoteAuthor() + "\"\n,");
+////                    bufferedWriter.write("\"quoteAuthor\""+":" + "\""+quotes.getQuoteAuthor()+"\",");
+//                    bufferedWriter.write("\"quoteText\"" + ":" + "\"" + quotes.getQuoteText() + "\"\n");
+////                    bufferedWriter.write("\"quoteText\""+":" + "\""+quotes.getQuoteText()+"\"");
+//                    bufferedWriter.write("}");
+//                }
+//            }
+//            bufferedWriter.close();
+//            jasonReader.close();
+//            bufferedWriter.write("\"quoteAuthor\""+":" + "\""+quotes.getQuoteAuthor()+"\",");
+//            bufferedWriter.write("\"quoteAuthor\""+":" + "\""+quotes.getQuoteAuthor()+"\",");
+//            bufferedWriter.write("\"quoteText\""+":" + "\""+quotes.getQuoteText()+"\"");
+//            bufferedWriter.write("\"quoteText\""+":" + "\""+quotes.getQuoteText()+"\"");
+            }
+        }catch (IOException e){
+            String path = "./app/src/main/resources/recentquotes.json";
+            System.out.println("from file");
+            readJson(path);
+        }
+
+//        BufferedReader bufferedReader =new BufferedReader(apiData);
     }
 }

@@ -5,29 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="add a new shop $ theater class">
-      <change afterPath="$PROJECT_DIR$/quotes/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/Quotes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/resources/recentquotes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/app/src/test/java/quotes/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quotes/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/QuotesFromAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/app/src/main/resources/recentquotesCopy.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +88,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/quotes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../401/401-data-structures-and-algorithms" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -126,6 +109,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="quotes.App" />
       <module name="quotes.app.main" />
+      <option name="PROGRAM_PARAMETERS" value="local" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="quotes.*" />

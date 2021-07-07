@@ -27,4 +27,7 @@
 6. Theater class provide name of Theater and list of the movie , and you can add and remove movie, and you can add review for it .
 
 -quotes 
-1. i write a function that print random quote with author every run
+   **Run the code **
+- you can choose a quote from the internet or from the local machine by enter in agrs **"local"** without doubleqoute 
+will see a massage tell you its from local machine , by default  you will receive a quote from the internet, and a message 
+  tell you it's from the internet , if any error happened you will receive a quote from local machine .
