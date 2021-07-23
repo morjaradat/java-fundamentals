@@ -3,6 +3,7 @@ package review;
 public class ReviewNode {
     private final String body;
     private final String author;
+    private String movieName;
     private final double star;
     private ReviewNode next;
 
@@ -10,6 +11,21 @@ public class ReviewNode {
         this.body = body;
         this.author = author;
         this.star = star;
+    }
+
+    public ReviewNode(String movieName,String body, String author, double star) {
+        this.body = body;
+        this.author = author;
+        this.star = star;
+        this.movieName=movieName;
+    }
+
+    public String getMovieName() {
+        return movieName;
+    }
+
+    public void setMovieName(String movieName) {
+        this.movieName = movieName;
     }
 
     public String getBody() {

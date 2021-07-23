@@ -1,6 +1,6 @@
 package inheritance2;
 
-public class Shop extends  Review2 implements ToStringInterface{
+public class Shop extends Review implements ToStringInterface , AddShopReview{
     private  String name;
     private  String description;
     private String category;
@@ -37,11 +37,22 @@ public class Shop extends  Review2 implements ToStringInterface{
 
     @Override
     public String toString() {
-        return "Shop{" +
+        return "Shop => " +
                 "name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", category='" + category + '\'' +
-                ", Review='" + newReview.toString() + '\'' +
-                '}';
+                ", category='" + category + '\n' +
+                ", Review='" + newReview.toString()
+                ;
+    }
+
+    @Override
+    public void addReview(String body, String author, int star) {
+        boolean addNewReview = newReview.addNewReview(body,author,star);
+//        System.out.println(addNewReview);
+        if (addNewReview){
+//           System.out.println("star");
+//           System.out.println("---------");
+            setReviewStar(star);
+        }
     }
 }

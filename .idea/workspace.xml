@@ -3,14 +3,82 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="quotes" />
+      <module name="quotes.app" />
+      <module name="quotes.app.test" />
+      <module name="quotes.app.main" />
+      <module name="basiclibrary" />
+      <module name="basiclibrary.app" />
+      <module name="basiclibrary.app.test" />
+      <module name="basiclibrary.app.main" />
+    </loaded-modules>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="0bf5f799-c2d9-4439-af9f-589bc91c7a68" name="Default Changelist" comment="add a new shop $ theater class">
+
+      <change afterPath="$PROJECT_DIR$/.idea/remote-targets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basiclibrary/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/AddRestaurantReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/AddShopReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/AddTheaterReview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/quotes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Restaurant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Restaurant2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Review.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/Review2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/Restaurant/ReviewClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/category/CategoryList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/category/Node.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/review/ReviewList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/review/ReviewNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/test/java/inheritance/LibraryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant2.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review2.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Review.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Theater.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/inheritance2/Theater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/main/java/review/ReviewNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance2/app/src/test/java/inheritance2/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/Quotes.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/Quotes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+
       <change afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/QuotesFromAPI.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/quotes/app/src/main/resources/recentquotesCopy.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/quotes/app/src/main/java/quotes/App.java" afterDir="false" />
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +86,16 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/../inheritance2">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/app">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/basic">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/basiclibrary">
@@ -46,6 +123,12 @@
         <task path="$PROJECT_DIR$/quotes">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/../inheritance2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/inheritance2/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -69,15 +152,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Qotes" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/basic/src/main/java/App.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1uqtPBbgINrcs06g8lIaBK2FRKA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -87,8 +173,21 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowGit.ShowToolbar" value="false" />
+
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11 (WSL)" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../401/401-data-structures-and-algorithms" />
+
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
@@ -103,7 +202,13 @@
       <recent name="\\wsl$\Ubuntu\home\mohammad\java-fundamental\basic\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle --dry-run" />
+      <command value="gradlew --build-cache" />
+    </option>
+  </component>
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -120,114 +225,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="inher" type="Application" factoryName="Application">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="11 (WSL)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="inheritance.Library" />
-      <module name="inheritance.lib.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.RestaurantConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.RestaurantConstructor&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="AppTest.reviewConstructor" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.reviewConstructor&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.theaterAddNewMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.theaterAddNewMovie&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.theaterRemoveMovie" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/inheritance2" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;inheritance2.AppTest.theaterRemoveMovie&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Application.inher" />
-      <item itemvalue="Application.App" />
-      <item itemvalue="Gradle.AppTest.reviewConstructor" />
-      <item itemvalue="Gradle.AppTest.RestaurantConstructor" />
-      <item itemvalue="Gradle.AppTest.theaterAddNewMovie" />
-      <item itemvalue="Gradle.AppTest.theaterRemoveMovie" />
-    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="Gradle.AppTest.theaterRemoveMovie" />
-        <item itemvalue="Gradle.AppTest.theaterAddNewMovie" />
-        <item itemvalue="Gradle.AppTest.RestaurantConstructor" />
-        <item itemvalue="Gradle.AppTest.reviewConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +259,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1625404921530</updated>
+      <workItem from="1626452943273" duration="2302000" />
+      <workItem from="1626456066201" duration="404000" />
+      <workItem from="1626456504014" duration="632000" />
+      <workItem from="1626457191627" duration="616000" />
+      <workItem from="1626461657589" duration="117000" />
+      <workItem from="1626468923224" duration="1235000" />
+      <workItem from="1627066909538" duration="14000" />
+      <workItem from="1627067209055" duration="289000" />
+      <workItem from="1627067526588" duration="60000" />
+      <workItem from="1627077113449" duration="2106000" />
     </task>
     <task id="LOCAL-00001" summary="add to readMe  inheritance">
       <created>1625506844050</created>
@@ -247,8 +277,28 @@
       <option name="project" value="LOCAL" />
       <updated>1625506844050</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add a new shop $ theater class">
+      <created>1625691387937</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1625691387937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
