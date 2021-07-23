@@ -3,35 +3,40 @@
  */
 package inheritance2;
 
-//import org.junit.jupiter.api.Test;
-//import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class AppTest {
 
+                         /* Restaurant */
+
     @Test void RestaurantConstructor(){
-        Restaurant2 test =new Restaurant2("test Restaurant","$$$$$");
+        Restaurant test =new Restaurant("test Restaurant","$$$$$");
         assertEquals(test.getName(),"test Restaurant");
         assertEquals(test.getCategoryPrice(),"$$$$$");
     }
     @Test void toStringRestaurant(){
-        Restaurant2 test =new Restaurant2("test Restaurant","$$$$$");
+        Restaurant test =new Restaurant("test Restaurant","$$$$$");
         assertEquals(test.toString(),"Restaurant => { name = test Restaurant , star=0}");
     }
+
+                            /* Review */
+
+
     @Test void reviewConstructor(){
-        Review2 test =new Review2("i love testing","mohammad",2);
+        Review test =new Review("i love testing","mohammad",2);
         assertEquals(test.getAuthor(),"mohammad");
         assertEquals(test.getBody(),"i love testing");
         assertEquals(test.getReviewStar(),2);
     }
     @Test void toStringReview(){
-        Review2 test =new Review2("i love testing","mohammad",2);
+        Review test =new Review("i love testing","mohammad",2);
         assertEquals(test.toString(),"Review2{" +
                 "body='" + "i love testing" + '\'' +
                 ", author='" + "mohammad" + '\'' +
@@ -39,39 +44,50 @@ class AppTest {
                 '}');
     }
     @Test void toStringReviewAfterNewReview(){
-        Restaurant2 test =new Restaurant2("test Restaurant","$$$$$");
+        Restaurant test =new Restaurant("test Restaurant","$$$$$");
         test.addReview("i love testing","mohammad",1);
         assertEquals(test.toString(),"Restaurant2 => {name = test Restaurant', star=1.0}\n" +
                 " category='$$$$$" +
                 "\n" +
-                " Reviews={ body => i love testing | author => mohammad | Review Star =>1.0 || }");
+                " Reviews={ body => i love testing | author => mohammad | Review Star => 1.0 || }");
     }
     @Test void associationReviewAfterNewReviewBetweenReviewAndRestaurantCon(){
-        Restaurant2 test =new Restaurant2("Restaurant 1","$$$$$");
+        Restaurant test =new Restaurant("Restaurant 1","$$$$$");
 
         test.addReview("i love testing","mohammad",1);
 
-        Restaurant2 test2 =new Restaurant2("test Restaurant 2","$$$$$");
+        Restaurant test2 =new Restaurant("test Restaurant 2","$$$$$");
         test2.addReview("i love testing","mohammad",5);
 
         assertEquals(test.toString(),"Restaurant2 => {name = Restaurant 1', star=1.0}\n" +
                 " category='$$$$$" +
                 "\n" +
-                " Reviews={ body => i love testing | author => mohammad | Review Star =>1.0 || }");
+                " Reviews={ body => i love testing | author => mohammad | Review Star => 1.0 || }");
 
         assertEquals(test2.toString(),"Restaurant2 => {name = test Restaurant 2', star=5.0}\n" +
                 " category='$$$$$" +
                 "\n" +
-                " Reviews={ body => i love testing | author => mohammad | Review Star =>5.0 || }");
+                " Reviews={ body => i love testing | author => mohammad | Review Star => 5.0 || }");
     }
+
+
+                        /* Number of stars  */
+
+
+
     @Test void checkIfTheNumberOfStarsChange(){
-        Restaurant2 test =new Restaurant2("test Restaurant","$$$$$");
+        Restaurant test =new Restaurant("test Restaurant","$$$$$");
         test.addReview("i love testing","mohammad",1);
         test.addReview("i love testing","mohammad",3);
         test.addReview("i love testing","mohammad",5);
         test.setStar(test.getReviewStar());
         assertEquals(test.getStar1(),1.0);
     }
+
+                               /* Shop */
+
+
+
     @Test void ShopConstructor(){
         Shop test =new Shop("mohammad shop","sells computer parts","$$$");
         assertEquals(test.getName(),"mohammad shop");
@@ -81,13 +97,18 @@ class AppTest {
     @Test void toStringShop(){
         Shop test =new Shop("mohammad shop","sells computer parts","$$$");
         test.addReview("the prices are good ","mohammad jaradat",1);
-        assertEquals(test.toString(),"Shop{" +
+        assertEquals(test.toString(),"Shop => " +
                 "name='" + "mohammad shop" + '\'' +
                 ", description='" + "sells computer parts" + '\'' +
-                ", category='" + "$$$" + '\'' +
-                ", Review='" + "{ body => the prices are good  | author => mohammad jaradat | Review Star =>1.0 || }" + '\'' +
-                '}');
+                ", category='" + "$$$" + '\n' +
+                ", Review='" + "{ body => the prices are good  | author => mohammad jaradat | Review Star => 1.0 || }"
+                );
     }
+
+
+                           /* Theater */
+
+
     @Test void theaterConstructor(){
         ArrayList<String> movie =new ArrayList<>();
         Theater test =new Theater("mohammad shop",movie);
@@ -102,12 +123,12 @@ class AppTest {
         ArrayList<String> movie =new ArrayList<>();
         Theater test =new Theater("mohammad shop",movie);
         movie.add("fly");
-        test.addReview("the movie are good ","mohammad jaradat",1);
-        assertEquals(test.toString(),"Theater{" +
-                ", name='" + "mohammad shop" + '\'' +
-                ", movies=" + "[fly]" + '\'' +
-                "newReview=" + "{ body => the movie are good  | author => mohammad jaradat | Review Star =>1.0 || }" +
-                '}');
+        test.addReview("fly","the movie are good ","mohammad jaradat",1);
+        assertEquals(test.toString(),"Theater => " +
+                " name='" + "mohammad shop" + '\n' +
+                "newReview=" + "{ movieName=> fly | body => the movie are good  | author => mohammad jaradat | Review Star => 1.0 || }" + '\n'+
+        "movies=" + "[fly]"+ '\n'
+                );
     }
     @Test void theaterAddNewMovie(){
         ArrayList<String> movie =new ArrayList<>();

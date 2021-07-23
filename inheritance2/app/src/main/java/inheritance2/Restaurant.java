@@ -1,14 +1,14 @@
 package inheritance2;
 import category.CategoryList;
 
-public class Restaurant2 extends Review2 implements ToStringInterface {
+public class Restaurant extends Review implements ToStringInterface , AddRestaurantReview {
 
     private final String name;
     private int star1;
     private static  CategoryList category = new CategoryList();
     private String categoryPrice;
 
-    public Restaurant2( String name,String categoryPrice) {
+    public Restaurant(String name, String categoryPrice) {
         super();
         this.name = name;
         this.star1 = 0;
@@ -22,8 +22,6 @@ public class Restaurant2 extends Review2 implements ToStringInterface {
     public void setCategoryPrice(String categoryPrice) {
         this.categoryPrice = categoryPrice;
     }
-
-
 
     public void setStar(int star) {
         this.star1 = star;
@@ -59,4 +57,17 @@ public class Restaurant2 extends Review2 implements ToStringInterface {
                 " category='" + getCategoryPrice() + "\n" +
                 " Reviews=" + newReview.toString() ;
     }
+
+    @Override
+    public void addReview(String body, String author, int star) {
+        boolean addNewReview = newReview.addNewReview(body,author,star);
+//        System.out.println(addNewReview);
+        if (addNewReview){
+//           System.out.println("star");
+//           System.out.println("---------");
+            setReviewStar(star);
+        }
+
+    }
+
 }

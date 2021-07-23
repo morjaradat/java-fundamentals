@@ -2,7 +2,7 @@ package inheritance2;
 
 import review.ReviewList;
 
-public class Review2  implements ToStringInterface{
+public class Review implements ToStringInterface{
     private String body;
     private String author;
     private int reviewStar;
@@ -10,31 +10,31 @@ public class Review2  implements ToStringInterface{
     ReviewList newReview = new ReviewList();
 
 
-    public Review2( String body, String author, int reviewStar) {
+    public Review(String body, String author, int reviewStar) {
         this.body=body;
         this.author=author;
         this.reviewStar=reviewStar;
-         addReview(body,author,reviewStar);
+//         addReview(body,author,reviewStar);
     }
 
-    public Review2() {
+    public Review() {
 
     }
 
 
-    public void addReview(String body, String author, int star) {
-       boolean addNewReview = newReview.addNewReview(body,author,star);
-//        System.out.println(addNewReview);
-       if (addNewReview){
-//           System.out.println("star");
-//           System.out.println("---------");
-           setReviewStar(star);
-       }else{
-//           System.out.println("No star");
-//           System.out.println("---------");
-       }
-
-    }
+//    public void addReview(String body, String author, int star) {
+//       boolean addNewReview = newReview.addNewReview(body,author,star);
+////        System.out.println(addNewReview);
+//       if (addNewReview){
+////           System.out.println("star");
+////           System.out.println("---------");
+//           setReviewStar(star);
+//       }else{
+////           System.out.println("No star");
+////           System.out.println("---------");
+//       }
+//
+//    }
 
 //    public void addMovieReview(String movie,String body, String author, int star) {
 //        boolean addNewReview = newReview.addNewReview(body,author,star);
