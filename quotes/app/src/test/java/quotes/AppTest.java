@@ -4,12 +4,34 @@
 package quotes;
 
 import org.junit.Test;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void testThePath() {
-        String  worngPath = "./app/src/main/resources/recentquotes.json";
-//        App.readJson(worngPath);
-        assertEquals(App.readJson(worngPath),false);
+    @Test public void testWrongPath() {
+        String  wrongPath = "./app/src/main/resources/recentquotes.json";
+        assertEquals(App.readJson(wrongPath),false);
     }
+    @Test public void testWorkingPath() {
+        String  path = "./quotes/app/src/main/resources/recentquotes.json";
+
+        assertEquals(App.readJson(path),false);
+    }
+    @Test public void testWorkingAPI() throws IOException {
+        String url = "http://api.forismatic.com/api/1.0/?method=getQuote&format=json&lang=en";
+        HttpURLConnection apiData = (HttpURLConnection) new URL(url).openConnection();
+        int responseCode = apiData.getResponseCode();
+        assertEquals(responseCode,HttpURLConnection.HTTP_OK);
+    }
+//    @Test public void testWrongAPI() throws IOException {
+//        String url = "http://api.forismatic.comapi/1.0/?method=getQuote&format=json&lang=en";
+//        HttpURLConnection apiData = (HttpURLConnection) new URL(url).openConnection();
+//        int responseCode = apiData.getResponseCode();
+//        assertEquals(responseCode,HttpURLConnection.HTTP_INTERNAL_ERROR);
+//    }
 }
