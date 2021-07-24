@@ -3,9 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/../inheritance2" />
-    <file type="web" url="file://$PROJECT_DIR$/basiclibrary" />
-    <file type="web" url="file://$PROJECT_DIR$/inheritance2" />
-    <file type="web" url="file://$PROJECT_DIR$/quotes" />
+    <file type="web" url="file://$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11 (WSL)" project-jdk-type="JavaSDK" />
 </project>
